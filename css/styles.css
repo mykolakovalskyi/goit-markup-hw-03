@@ -1,0 +1,224 @@
+:root {
+  --background-color-1: #ffffff;
+  --background-color-2: #2f303a;
+  --background-color-3: #f5f4fa;
+  --text-color-1: #757575;
+  --text-color-2: #ffffff;
+  --hover-and-button-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.header-box {
+  background-color: var(--background-color-1);
+}
+
+.studio-header {
+  color: var(--background-color-2);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.web {
+  color: var(--hover-and-button-color);
+}
+
+.navigation-link {
+  color: var(--background-color-2);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--hover-and-button-color);
+}
+
+.contacts-header {
+  color: var(--text-color-1);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.contacts-header:hover,
+.contacts-header:focus {
+  color: var(--hover-and-button-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.invisible {
+  display: none;
+}
+
+.section-1-box {
+  background-color: var(--background-color-2);
+}
+
+.section-1-header {
+  color: var(--text-color-2);
+  font-size: 44px;
+  line-height: 116%;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.main-button {
+  background-color: var(--background-color-3);
+  font-family: inherit;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--hover-and-button-color);
+  color: var(--text-color-2);
+}
+
+.section-2-box {
+  background-color: var(--background-color-1);
+}
+
+.smaller-title {
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.article {
+  color: var(--text-color-1);
+  font-size: 14px;
+  line-height: 146%;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.bigger-title {
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.section-3-box {
+  background-color: var(--background-color-1);
+}
+
+.section-4-box {
+  background-color: var(--background-color-3);
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.position {
+  color: var(--text-color-1);
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.footer-box {
+  background-color: var(--background-color-2);
+}
+
+.studio-footer {
+  color: var(--text-color-2);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.address-text {
+  color: var(--text-color-2);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 146%;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.contacts-footer {
+  color: var(--text-color-1);
+  text-decoration: none;
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--hover-and-button-color);
+}
+
+.portfolio-section-box {
+  background-color: var(--background-color-1);
+}
+
+.filter {
+  background-color: var(--background-color-3);
+  font-family: inherit;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 139%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--hover-and-button-color);
+  color: var(--text-color-2);
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 171%;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.project-type {
+  color: var(--text-color-1);
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
