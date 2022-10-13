@@ -241,3 +241,39 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.section {
+  padding-block: 94px;
+}
+
+.growing-item {
+  flex-grow: 1;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: calc((100% - (3 * 25%)) / 2);
+}
+
+.navigation-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 46px;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
